@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import '../styles/global.css'
+---
+
+<Layout title="Tammolab">
+	<main>
+		<h1 id="title">Welcome to <span class="grad">Tammolab's</span> Contact</h1>
+		<Navbar />
+		
+		<hr>
+
+		<section>
+			<p>If you wish to contact me, here are a few ways you can: </p>
+            <ul>
+                <li>
+                    Email: <span class="grad">tammarajam@gmail.com</span>
+                </li>
+                <li>
+                    Github: <span class="grad"><a href="https://github.com/x1alfa">x1alfa</a></span>
+                </li>
+                <li>LinkedIn: <span class="grad"><a href="https://www.linkedin.com/in/tammar-ajam-6278a1115">
+                    Tammar Ajam</a></span>
+                </li>
+            </ul>
+
+            <p>I will put in a contact thing that emails you whatever someone puts 
+                in, but this is just a mock up for now</p>
+		</section>
+	</main>
+</Layout>
+
+<style>
+    section {
+        font-size: large;
+    }
+
+    p {
+        font-size: large;
+    }
+</style>

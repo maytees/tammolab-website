@@ -1,0 +1,23 @@
+---
+import Navitem from "../components/Navitem.astro";
+---
+
+<nav>
+    <Navitem href="/" class="navitem" >Home</Navitem>
+    <Navitem href="/about" class="navitem" >About</Navitem>
+    <Navitem href="/work" class="navitem" >Work</Navitem>
+    <Navitem href="/skills" class="navitem" >Skills</Navitem>
+    <Navitem href="/contact" class="navitem" >Contact</Navitem>
+</nav>
+
+<style>
+    nav {
+        display: flex;
+        align-items: center;        
+    }
+    .navitem {
+        color: #d65f8c;
+        margin-right: 60px;
+        font-size: 1.1rem;
+    }
+</style>

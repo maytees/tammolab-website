@@ -1,0 +1,40 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import '../styles/global.css'
+---
+
+<Layout title="Tammolab">
+	<main>
+		<h1 id="title">Welcome to <span class="grad">Tammolab</span></h1>
+		<Navbar />
+		
+		<hr>
+
+		<section>
+			<h3>Hello, I am <span class="grad">Tammar Ajam</span>..</h3>
+			
+			<p>I am a senior systems engineer <span class="grad">@</span> Oracle (Cerner), 
+				and a hobbyist working <span class="grad">@</span> my house. <br> <br> Note to dad:
+			tell me what to add here, because it is your portfolio website</p>
+			
+			<p>
+				Now that that's done, you can check out these pages:
+				<ul>
+					<li>
+						<a href="/about">My about page</a>
+					</li>
+					<li>
+						<a href="/work">What I do (work)</a>
+					</li>
+					<li>
+						<a href="/skills">My skills</a>
+					</li>
+					<li>
+						<a href="/contact">My contact page</a>
+					</li>
+				</ul>
+			</p>
+		</section>
+	</main>
+</Layout>
